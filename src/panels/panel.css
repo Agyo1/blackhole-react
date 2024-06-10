@@ -1,0 +1,43 @@
+.draggable-panel-container {
+    position: relative;
+    left: 50px; /* Set initial left position */
+    top: 50px; /* Set initial top position */
+}
+.panel {
+    grid-area: 1 / 9 / 2 / 12;
+    background: rgba(19, 19, 19, 0.8);
+    color: white;
+    padding: 10px;
+    left: 50px; /* Set initial left position */
+    top: 50px; /* Set initial top position */
+    border-radius: 1rem;
+    border: #5d5d5d solid 1px;
+    position: relative;
+    overflow: visible;
+    z-index: 110;
+}
+.tab {
+    position: relative;
+    top: -50px;
+    background-color: rgba(6, 6, 6, 0.7);
+    height: 35px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 2px;
+    padding-right: 7px;
+    border: 1px solid #5d5d5d;
+    width: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    font-optical-sizing: auto;
+    font-size: 0.75rem;
+    z-index: 110;
+    border-bottom: #131313;
+    padding-top: 3px;
+    border-radius: 10px 10px 0 0;
+}
+.header {
+    padding-left: 10px;
+}
+.controls-content {
+    z-index: 102;
+}
